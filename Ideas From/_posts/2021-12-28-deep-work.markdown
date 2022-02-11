@@ -1,0 +1,64 @@
+---
+layout: post
+title: Ideas from; Deep Work by Cal Newport.
+---
+
+What I feel are the important takeaways from Cal Newport's book about the rules for focussed success in a distracted world.
+
+> "Waiting for inspiration to strike is a terrible, terrible plan. In fact, perhaps the best piece of advice I can offer to anyone trying to do creative work is to ignore inspiration" - Mason Currey
+
+I wouldn't say this is the premise of the book or even an important takeaway. However, it is a part that resonated a lot with me at a point in my life where I thought I lacked direction, and it is what brought about change in my deep work habits.
+
+**What will the future demand?**
+
+To thrive in a market that is becoming increasingly technical and competetive, these 3 point are the most obvious routes to acheive it.
+1. Are you good at working with intelligent machines?
+2. The talent market is becoming universally accessible, so you have to be on top of whatever game you're playing.
+3. You own value - either in terms of ideas, intelligent machines or capital in others.
+
+**He mentions two abilities important for the new economy -**
+
+To be able to quickly learn complex things as the world keeps evolving, and to be able to produce quality.
+To master a skill, one needs deliberate practice; focussed attention and regular feedback. Intensity of focus must be high to produce quality work per unit time. You have to fight the attention residue that is caused by switching between multiple tasks.
+
+Many activities on the internet are presumed to be necessary for no other reason than they exist and other people do it. For instance, why did I post a story when I travelled for work? *There is nothing fundamentally flawed about switching off and working deep; and there is nothing fundamentally necessary about checking notifications every few minutes.*
+
+**Productivity in the workplace**
+
+Newport debates wether connectivity is actually degrading performance in an office. It is difficult to measure the value and/or loss attained when employees spend time on frequent meetings, mails and chats. The principle of least resistance states that in the absence of metrics, people fall back to what's easiest. It is easy to quickly reply to mails and organize your work only before a meeting. However, Just because someone schedules and attends meetings on time, quickly replies to your mails, and is always seen around the office talking to people doesn't mean he/she is working well. Being busy **does not** equate to being productive. I've seen this especially happen when there is a lack of clear set goals. Small obligations that seem harmless in isolation could aggregate to cause serious problems. In contrast to an open office space, the author bats for closed spaces for deep work, combined with a conference room for collaboration. Only one of those needs consistent effort and therefore should be prioritized. When it comes to responding to professional emails, take extra effort in the response, to make sure the number of exchanges required to conclude the topic are limited.
+
+
+**Deep work rooting for personal progress** 
+
+I have found that I often attribute the lack of motivation in my life to an absence of purpose or a calling. But the book says that the task of a craftsman is not to generate meaning, but rather to recognize meanings that are already there. Computer vision for me is the obvious go to; it has traits that excite me, could be potentially uplifting for society and has not been explored completely as of now. This is what I am going to focus on. It is important that the challenge is simple to define and difficult to execute; not the other way around. This is what the book suggests will impart purpose. 
+
+The book also touches upon the general wellbeing of a person. My mental wellbeing is attributed to what I pay attention to during the day, and not just big events that happen occasionaly. A trial about experience sampling showed that the best moments occur when a person's mind or body is stretched to it's limits in a voluntary effort to accomplish something worthwhile. I have felt this while being regular at at the gym, but I doubt I have had my mind stretched in a long time. I must seek out oppurtunities that i can perform regularly that stretch my mind or body; flow activities as the author terms it.
+
+*Up until now, It's clear that deep work is increasingly valuable as it is rare. However, deep work may also be a route to transform my personal life from distracted moments and an obligation to something purposeful and.. satisfying?*
+
+**How do we actually accomplish deep work**
+
+- *Dedicating Time*
+
+If you're someone whose contribution to the worlds is clear, discrete and well-defined; For instance, writing a book or a research paper, then you need to have large uninterrupted chunks of time to both understand and produce.
+But for people like me, where it isn't just one thing I'd like to focus on, there arises a need for me to divide my day into stretched of deep pursuits. Deep work can produce enough productivity only if I dedicate enough time on each of these pursuits. Especially when you are working on tasks that no external force is particularly pressurising you to finish, habitual routines are necessary. One habit to ensure consistency in such rhythmic routines is to have a calendar and tick the days you worked deep. Or even go one above, and write the hours of a day you worked deep. After a point, you wouldn't want to break your streak.
+So this boils down to how you want to dedicate your time for deep work: monastic seasons, multiday binges, rhythmic routines or the less satisfying do when you can.
+
+- *A metric to measure*
+
+It's always healthy to measure how well you're doing, but how do you manage to calculate. You could set lags and leads for yout tasks. A lag would be feedback on your task, looking back at how well you've done once it's complete. However, a lag wouldn't be an everyday motivator since you can't witness it until you finish the task. A lead, on the other hand, can be an indicator that helps measure everyday progress. A lead could be, as mentioned previously, counting the time you spend on deep work everyday.
+
+- *Scheduled blocks of connectivity*
+
+The first thought of resistance I felt towards deep work was that I had to give up staying connected all the time. I always feel that I could receive potentially important messages, and sometimes if not obviously important, a need to maintain social connectivity. The author suggests to schedule small breaks of connectivity in between your deep work sessions; breaks where you can check and respond to your messages and e-mail. These breaks can be as frequent as you'd like (say for example a 5 minute break every 20 minutes), and that's okay as long as you restrict your distractions to these breaks. The goal here isn't to necessarily reduce the time spent on distracting tasks, but rather to gain the ability to resist the urge to move to distracting tasks at the slightest hint of boredom or cognitive resistance.
+
+- *The Craftsman approach*
+
+Often, in the digital age, distractions occur through the forms of social media. For me, I feel a sense of belonging when I am part of groups and discussion in these applications, and when I'm not I worry if they'll miss me. I use these applications so that I stay in touch with my social circle, and to maybe find new circles or expand my network at best. I've always thought it's a small benefit and it's better than nothing, so why not? However to abandon such a tool is not to miss out on potential small benefits as I fathomed, but instead to get more out of the activities you know could yield large benefits. When picking which of these tools to use, weigh their positives against the negatives. To do so might require you leaving these tools for a period of time, but it is better than using them for the small potential benefits they offer. I was off Instagram, Reddit and Discord for two weeks and nobody expect my close friends noticed, close friends who I am in touch with regardless of my social connectivity.
+
+- *Routines, and Planning*
+Arnold Bennet was an author in 19th century England. In one occasion, he wrote about the working class man who doesn't particularly enjoy his 9-5 job (Your's truly). He sneers about how this man thinks of his job as his day, and not the 16 hours that surround it. These other hours are in itself a day within the day where you're free to do what you want to with money from your other day, but I've never thought of it as such. But to do so, you must hone your mind's ability to resist distraction. The distracted mind only seeks temporary entertainment, a release of dopamine without having to think. But what about filling this day within the day with activities that are meaningful, rather than just entertaining.  But to do so, it's crucial to plan ahead exactly what you want to do and when. You don't have to stop watching entertaining youtube videos, but these activities often have a habit of leaking over time. To avoid this leakage, plan your day ahead of time; give yourself time to be entertained but restrict these activites to that time. Mental faculties are capable of continuous hard work. All they need is change and rest in the form of sleep.
+
+The first step towards deep work is to avoid distractions. Small obligations seem harmless in isolation, but the can aggregate to serious damage. As long as I work with frequent distarctions, I might never achieve what I want. Treat shallow with suspicion because it's damage is underestimated and its's importance vastly overestimated. Your time and attention are valuable; choose wisely what you spend it on.
+
+> I track my expense to control precisely what I spend my money on. Its time I do the same with my attention.

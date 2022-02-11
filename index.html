@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for category in site.categories %}
+    <h2>{{ category[0] }}</h3>
+    <ul>
+      {% for post in category[1] %}
+      <article class="post">
+        <div class="card">
+          <div class="post_container">
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+             <div class="entry">
+             {{ post.excerpt }}
+             </div>
+          </div>
+        </div>
+      </article>
+      {% endfor %}     
+    </ul>
+  {% endfor %}
+</div>

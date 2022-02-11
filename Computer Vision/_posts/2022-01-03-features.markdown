@@ -1,0 +1,41 @@
+---
+layout: post
+title: Features and SIFT.
+---
+Features, their extraction and matching.
+
+The aim of extracting features is reduce dimensionality. We extract features from the input data that we believe are relevant to the task at hand. Images especially have a lot of unnecessary data, most of which we could do without. So we select some features that we then use for classification or matching; whatever the task at hand is. Through this we have a smaller and more relevant dataset to work on. What these features are is only limited by our imagination. Features in images could be edges, colours, local binary patterns, etc. 
+
+So in a lot of applications that involve images, we have a need to detect relevant features and describe them. Moreover, these descriptors need to specified in a way that is unaffected by changes in illumination, scaling, rotation and even affine. Why? Take for example, the peak of a mountain that could make a good feature. Two images can be taken at different times of the day (meaning different illumination), and from different places (change in distance or perspective). This feature still has to be matched accurately regardless of these changes. Therefore, there arises a need to detect features that are powerful in distinguishing and to describe them in a way that is unaffected by the changes mentioned above.
+
+One such technique to detect features and create descriptors is the SIFT.
+
+# Scale Invariant Feature Transform
+The aim of SIFT is to extract features from an image and ensure that the scale of images does not affect feature matching. So for every image, keypoints are derived from different scales of the image so as to account for all scales. 
+
+**1. Extrema Detection in Scale & Space**
+Difference of gaussian is a blob detection method where the image is convoluted with different Gaussian kernels i.e. different levels of blurring. The sigma value of the Gaussian filter is increased in each step which results in blobs of different sizes to ge t detected. These images are compared so as to maximise the areas of zero crossing. The comparison is done by finding the local extrema in space and scale i.e. with 8 surrounding pixels and 9 pixels in the adjacent scales. These extrema pixels are considered potential keypoints. 
+
+**2. Keypoint Localization**
+In this step, we remove some of the keypoints found in step one.
+* Since scales and octaves are all discretely separated, we have to interpolate the keypoints to get more accurate values. The interpolation is carried out using Taylor expansion series to get a more accurate location of extrema.  
+* We remove some keypoints at the newly found extremas that are of low contrast. If the intensity at the keypoint extrema obtained in the previous step is lesser than the contrast threshold, we eliminate it.
+* DoG has a high response for edges ande hence there is aneed to eliminate some of these. The edge keypoints are identified by a concept similar to Harris corner detection where gradients across a 3x3 kernel using Hessian matrix is calculated to check for edges/corners.
+
+**3. Orientation Assignment**
+The goal here is to assign an orientation to each keypoint based on the gradients at each point. This is done to further distinguish and thereby match keypoints. Once orientations are assigned, the keypoints then become invariant to image rotation, meaning no matter how the image is rotated, the keypoints can be distinguished based on their orientations. For each scale, the same-scale Gaussian image is selected and two values are calculated for each keypoint (x, y). The gradient magnitude and orientation. They are found by the formulating the pixel differences in the x and y direction. An orientation histogram is formed from the gradient orientations of sample points with 36 bins covering the 360 degree range. Peaks in this histogram correspond to dominant directions of local gradients.The highest peak is detected, and then any other local peak that is within 80% of the highest peak is used to also create a keypoint with that orientation.
+
+**4. Generating Descriptors**
+A keypoint descriptor is created by first computing the gradient magnitude and orientation at each image sample point in a region around the keypoint location. These samples are then accumulated into orientation histograms summarizing the contents over 4x4 subregions with the length of each arrow corresponding to the sum of the gradient magnitudes near that direction within the region. Trilinear interpolation is used to distribute the value of each gradient sample into adjacent histogram bins to avoid abrupt changes. These descriptors are made to be invariant to brightness and contrast changes. Since they are charecterized by gradients, which are essentially computed from pixel differences, a contrast change (multiplication of intensity by a constant) will mean equal change in all gradients and a brightness change (addition of intensity with a constant) will mean no change in gradients. Hence they are invariant to illumination.
+
+# Conclusion
+Through these 4 steps, SIFT successfully achieves in creating keypoints that are invariant to scale, illumination, small changes in perspective, rotation, image translations. Many keypoints are discarded if they are deemed to be unstable so we end up with a set of robust keypoints that are relevant to the object at hand. 
+
+Next I go over feature matching briefly. Now that we have feature descriptors at hand, we now need a strategy to match two features to see if they are the same. A direct approach would be to find the Eucledean distance between two features and see how closely they match. If the distance is below a certain fixed threshold, we can consider them to be the same feature. This however, according to studies results in a high number of false positives due to the the varying nature of details in images. Another option is to consider a dynamic threshold based on the feature. But an even better option is to consider both the nearest neighbor and the second nearest neighbor. A ratio of the distance between the feature and its closest neighbut to that of the seond closest neighbor.
+To complete feature matching as is done in object recognition tasks, keypoints from different images are matched with their closest and second-closest neighbors. 
+
+This page is hardly an extensive view on SIFT, but rather an overview to the widely used concept. If you'd like to have a more detailed study about the subject, please look up the actual paper [Distinctive Image Features from Scale-Invariant Keypoints By David G. Lowe](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf "Title"). 
+
+If you'd like an explanation that is more detailed than mine, but less time consuming than the actual paper, consider this page on [SIFT By Minghao Ning](https://towardsdatascience.com/sift-scale-invariant-feature-transform-c7233dc60f37).
+
+If you'd like to visualise the keypoints at each step involved in the process, check out this amazing page by [Prof. Dr. Edmund Weitz](http://weitz.de/sift/index.html).

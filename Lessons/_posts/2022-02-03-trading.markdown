@@ -1,0 +1,78 @@
+---
+layout: post
+title: Lessons; Trading.
+---
+
+Technical Analysis of Stocks.
+
+An important board member suddenly buys 100,000 shares of her own company. In technical analysis, it doesn't matter what caused her sudden faith; what matters is that the there is a sudden surge in demand for this stock which is now going to influence the upcoming trend. Technical Analysis does not analyse on why the stock price moves, but rather how it moves. It is therefore done with the help of stock prices and instruments used to visualize these prices; the main instrument being candlestick charts. A candlestick chart shows 4 values for each trading session. The trading session can be a day or even 5 minutes according to the trader's goals. I practice swing trading for which i use end of day charts that show values of Open, High, Low, and Close for a stock during a day. <br>
+![A candlestick]({{site.baseurl}}/media/images-2022-02-03-trading/candlestick.jpg.jfif 
+"Figure 1. Bullish and Bearish Candlestick.")
+
+A trend shows the direction in which the market moves. A stock can be an uptrend, a downtrend or it could move sideways within a certain range of prices. For chart to be in an uptrend, the pullback should not have a low lower than the previous low. Impulse moves should take the stock price to a higher high in an uptrend. The opposite works for a downtrend. Through technical analysis, we may be able to predict when such a trend starts and when it ends, giving us potential entry and exit points.<br>
+![Trend]({{site.baseurl}}/media/images-2022-02-03-trading/trend.png "Generalization of price trends")
+
+# Candlestick Patterns
+The current trend of a given stock price can be easily figured out by looking at it's candlestick chart. However, more importantly there are patterns that occur in these charts that show when a trend is set to break out, giving us indications as to potential times to buy and sell. More important so that we can use the trends to book profits. Before we start with some patterns, it's important to know what bulls and bears signify. A bull is an optimist, someone who believes the market should be in an uptrend and actively tries to increase the stock price. A bear, on the other hand tries to push the stock into a downtrend. Knowing this, remember that most patterns occur in bullish and bearish capacities, caused by the corresponding traders.
+
+- **The Marubuzo**<br>
+The Marubuzo is a candlestick that has no shadows, meaning the high and low values coincided with the close and open (respectively for a bullish pattern). For a stock that is in uptrend, a bullish Marubuzo suggests that the market sentiment is still positive and the trend should continue. It shows that since the open price, the stock kept rising without falling. A general rule of thumb is buy around close price, with open price as stop loss. A marubuzo isn't the best entry point I'll cover but it often serves as a confirmation of a trend to risk averse traders. If I am unsure if a stock will continue in an uptrend, a Marubuzo will help. However, try and avoid Marubuzos with very short or very long candles.<br>
+![Marubuzo]({{site.baseurl}}/media/images-2022-02-03-trading/marubozu.png "Marubuzo from www.bullishbears.com")
+
+- **Spinning Top and Doji**<br>
+I feel these two patterns are similar in that they indicate a common market sentiment - indecisiveness. A spinning top is a small candle with equal shadows, showing that both bulls and bears failed in an attempt to influence the market. A doji is a candle without a real body, meaning there was hardly a change in the open and close prices. Both these patterns show uncertainity in terms of who has control among the bulls and bears, and the trend can go either way.<br>
+![Doji]({{site.baseurl}}/media/images-2022-02-03-trading/doji.png "Spinning top and Doji from www.thinkmarkets.com")
+
+- **The Paper Umbrella**<br>
+As the name suggests, the candle forms a pattern that looks like an umbrella; the candle has a minimal upper shadow and a lower shadow atleast twice as big as the body. A bullish pattern is termed as a Hammer and a bearish one is called a Hanging Man. This pattern usually signifies a trend reversal. A hammer is a green candle that occurs at the end of a downtrend (*remember to check for prior downtrend*). The logic behind a hammer lies in the fact that the bears tried to pull down the price of the stock *shown by the Low*, but the bulls managed to pull it up *shown by the Close* showing a shift in control from bears to bulls. This momentum is expected to be carried forward to an uptrend.<br>
+![Umbrella]({{site.baseurl}}/media/images-2022-02-03-trading/umbrella.png "Hammer and Hanging Man from www.marketrealist.com")
+
+- **The Shooting Star**<br>
+The visual opposite of a Paper Umbrella. It is a candle with minimal lower shadow and an upper shadow atleast twice as big as the body. It is a reliable bearish pattern that occurs at the end of an uptrend. It indicates a shift in control from bulls to bears. 
+
+- **Engulfing**<br>
+This is the first multi-day pattern that we're seeing. The second day candle completely engulfs the first day candle along with a change in colour. A bullish engulfing occurs at the end of a downtrend with the second day candle green. It indicates that the bulls have sudden control over the market and it is expected to stay this way for the next few sessions. It works similarly for a bearish englufing after an uptrend. A doji after an engulfing is of particular significance. A doji after a bearish englufing shows that the bulls are now uncertain on day 3 after they saw bears take control on day 2. This panic is usually followed by a big selling day, causing a downtrend to form. A similar idea is used in the formation of a piercing pattern and dark cloud when the second day *partially* englufs the first. It is not considered as reliable as a full engulfing, but the logic behind it is still the same.<br>
+![Englufing]({{site.baseurl}}/media/images-2022-02-03-trading/engulf.png "Egulfing from www.forextraininggroup.com")
+
+- **Harami**<br>
+PREGNANCY. The first day candle engulfs the second day candle along with a change in colour. A bullish Harami occurs at the end of a downtrend with a small green candle after a bigger red candle. The sudden change in green indicates a panic among bears and could offer long options for bulls.<br>
+![Harami]({{site.baseurl}}/media/images-2022-02-03-trading/harami.png "Harami from www.forextraininggroup.com")
+
+- **The Morning Star**<br>
+To understand what a morning star is, let me first explain what a gap is. When the open of a stock price is different from the previous day's close, a gap is formed. When the open is higher than the previous day's close in an uptrend, it is termed as gap up. When the open is less than previous day's close in a gap down, it is a gap down. Moving to the morning star - it is a pattern that occurs over three days at the end of a downtrend. A red candle on day 1 followed by a gap down and a Doji on day 2. This is then followed by a gap up and a green candle on day 3. This clearly indicates a slow shift in control. The bears are in control on day 1, there is a sense of uncertainity on day 2, and finally an entry by the bulls. I would go long after seeing a gap up on day 3. The Evening star is the bearish version of this.<br>
+![Star]({{site.baseurl}}/media/images-2022-02-03-trading/star.png "The morning and evening star from www.techinicalanalysisofstocks.com")
+
+# Volumes
+Volumes are the number of trades that have been carried out on a stock in a particular session. These could be buy or sell trades. Each transaction is considered as one volume unit. There exists an idea of a smart/institutional trader in the market - someone who trades in high volumes, and more often than not knows what they are doing (*unlike cough cough*). It is considered in trading practices a safe bet to take their side. So if the volume is high for a particular session, there are more traders and smart ones who think it is a good time to buy/sell. Lesser volumes on the other hand show only a few retails investors decided to trade at that point, and I would rather give the masses the benefit of the doubt. I tend to use volumes to stay out of risky trades; using a comparison of current day's volume and a moving average of last 10 day's volume.
+
+# S&R Points
+There are certain points that correspond to price bands where a certain stock shows signs of change according to history. We look at the history of a particular stock and it's price to find certain price points where the stock has shown certain behaviour. We use these points to set stop loss and target. A support point is a point below the current price, where many buyers will buy the stock. A resistance point is a price point above the current price where holders are likely to sell their stocks. Therefore, it's clear that these points can help us identify price ranges for entry or exit. A system to identify such point is described below.
+1. I usually start by loading a candlestick chart with data points from about 12 - 18 months back.
+2. I need to identify multiple price actions zones. A price action zone is one of the following points: 
+    - A point where the price briefly moved up but hesitated to move further up.
+    - A point where the price briefly moved down but hesitated to move further down.
+    - Sharp reversals of trend at a particular point
+3. Now that I have different points, I draw horizontal lines and find a price range at which many points align. Each point has to be well spaced out in time.
+These price action zones act as support and resistance points, and help set entry and exit points for trades.
+
+# Moving Averages
+A simple moving average is the average of the last x days closing prices. An exponential moving average gives more weight to recent points, since they affect the stock more. If a stock is trading above it's average price, and peple are still ready to buy it, it shows the formation of a bullish uptrend. One potential way to use these averages is to buy when the price goes above 50 day EMA and sell when it oes below. Trades based on Moving averages usually offer marignal gains and losses since they include every movement above and below the average price. But one of them may be offer a big gain when an uptrend occurs. A way to reduce the number of trades would be to use multiple Moving Averages. For instance, comparing the 50 day EMA and 100 day EMA is a good option since the 50 day average reacts to the price more quickly. 
+
+# Indicators
+Indicators are what I use to confirm if I should carry forward with a trade. It is an extra layer that prevents me from getting into possibly bad trades.
+- **Relative Strength Index**<br>
+The RSI is used to identify overbought and oversold price regions of a stock where trends potentially reverse. It is usually calculated for a given time period with 14 days as the norm. It is measured in a scale of 0-100 where a value above 80 means overbought and a value below 20 means oversold. These are not fixed values, it can be meddled with according to your risk appetite. 
+
+- **Moving Average Convergence And Divergence**<br>
+The MACD uses a 12 day and 26 day EMA along with a 9 day EMA as a signal line. When the MACD line goes above the signal line, a bullish trend is expected and vice versa. I have found that the MACD reacts  little slower to trends so it is pretty safe to trade, making sure a trend is forming.
+
+- **Bollinger Bands**<br>
+Once again, an indicator that shows overbought and oversold prices regions. It involves a 20 day SMA, an upper line corresponding to +2 standard deviation, and a lower line for -2 standard deviation. If the current price is outside the upper or lower line, there is  high chance of trend reversal.
+
+# Dow Theory
+TO DO
+
+# Reward to Risk ratio
+Before I enter a trade, it is important to have a measure of just how much risk is involved in it. Especially as someone who is relatively new to trading, it is good practice to minimise risky trades atleast initially. The reward to risk ratio is an easy to calculate measure to do so.<br>
+Ratio = |Entry - Target| / |Entry - Stoploss|.<br>
+Pretty simple? Initially I keep it above two.
