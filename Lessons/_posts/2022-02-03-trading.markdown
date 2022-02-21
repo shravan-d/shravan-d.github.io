@@ -15,30 +15,30 @@ A trend shows the direction in which the market moves. A stock can be an uptrend
 # Candlestick Patterns
 The current trend of a given stock price can be easily figured out by looking at it's candlestick chart. However, more importantly there are patterns that occur in these charts that show when a trend is set to break out, giving us indications as to potential times to buy and sell. More important so that we can use the trends to book profits. Before we start with some patterns, it's important to know what bulls and bears signify. A bull is an optimist, someone who believes the market should be in an uptrend and actively tries to increase the stock price. A bear, on the other hand tries to push the stock into a downtrend. Knowing this, remember that most patterns occur in bullish and bearish capacities, caused by the corresponding traders.
 
-- **The Marubuzo**<br>
+## The Marubuzo
 The Marubuzo is a candlestick that has no shadows, meaning the high and low values coincided with the close and open (respectively for a bullish pattern). For a stock that is in uptrend, a bullish Marubuzo suggests that the market sentiment is still positive and the trend should continue. It shows that since the open price, the stock kept rising without falling. A general rule of thumb is buy around close price, with open price as stop loss. A marubuzo isn't the best entry point I'll cover but it often serves as a confirmation of a trend to risk averse traders. If I am unsure if a stock will continue in an uptrend, a Marubuzo will help. However, try and avoid Marubuzos with very short or very long candles.<br>
 ![Marubuzo]({{site.baseurl}}/media/images-2022-02-03-trading/marubozu.png "Marubuzo from www.bullishbears.com")
 
-- **Spinning Top and Doji**<br>
+## Spinning Top and Doji
 I feel these two patterns are similar in that they indicate a common market sentiment - indecisiveness. A spinning top is a small candle with equal shadows, showing that both bulls and bears failed in an attempt to influence the market. A doji is a candle without a real body, meaning there was hardly a change in the open and close prices. Both these patterns show uncertainity in terms of who has control among the bulls and bears, and the trend can go either way.<br>
 ![Doji]({{site.baseurl}}/media/images-2022-02-03-trading/doji.png "Spinning top and Doji from www.thinkmarkets.com")
 
-- **The Paper Umbrella**<br>
+## The Paper Umbrella
 As the name suggests, the candle forms a pattern that looks like an umbrella; the candle has a minimal upper shadow and a lower shadow atleast twice as big as the body. A bullish pattern is termed as a Hammer and a bearish one is called a Hanging Man. This pattern usually signifies a trend reversal. A hammer is a green candle that occurs at the end of a downtrend (*remember to check for prior downtrend*). The logic behind a hammer lies in the fact that the bears tried to pull down the price of the stock *shown by the Low*, but the bulls managed to pull it up *shown by the Close* showing a shift in control from bears to bulls. This momentum is expected to be carried forward to an uptrend.<br>
 ![Umbrella]({{site.baseurl}}/media/images-2022-02-03-trading/umbrella.png "Hammer and Hanging Man from www.marketrealist.com")
 
-- **The Shooting Star**<br>
+## The Shooting Star
 The visual opposite of a Paper Umbrella. It is a candle with minimal lower shadow and an upper shadow atleast twice as big as the body. It is a reliable bearish pattern that occurs at the end of an uptrend. It indicates a shift in control from bulls to bears. 
 
-- **Engulfing**<br>
+## Engulfing
 This is the first multi-day pattern that we're seeing. The second day candle completely engulfs the first day candle along with a change in colour. A bullish engulfing occurs at the end of a downtrend with the second day candle green. It indicates that the bulls have sudden control over the market and it is expected to stay this way for the next few sessions. It works similarly for a bearish englufing after an uptrend. A doji after an engulfing is of particular significance. A doji after a bearish englufing shows that the bulls are now uncertain on day 3 after they saw bears take control on day 2. This panic is usually followed by a big selling day, causing a downtrend to form. A similar idea is used in the formation of a piercing pattern and dark cloud when the second day *partially* englufs the first. It is not considered as reliable as a full engulfing, but the logic behind it is still the same.<br>
 ![Englufing]({{site.baseurl}}/media/images-2022-02-03-trading/engulf.png "Egulfing from www.forextraininggroup.com")
 
-- **Harami**<br>
+## Harami
 PREGNANCY. The first day candle engulfs the second day candle along with a change in colour. A bullish Harami occurs at the end of a downtrend with a small green candle after a bigger red candle. The sudden change in green indicates a panic among bears and could offer long options for bulls.<br>
 ![Harami]({{site.baseurl}}/media/images-2022-02-03-trading/harami.png "Harami from www.forextraininggroup.com")
 
-- **The Morning Star**<br>
+## The Morning Star
 To understand what a morning star is, let me first explain what a gap is. When the open of a stock price is different from the previous day's close, a gap is formed. When the open is higher than the previous day's close in an uptrend, it is termed as gap up. When the open is less than previous day's close in a gap down, it is a gap down. Moving to the morning star - it is a pattern that occurs over three days at the end of a downtrend. A red candle on day 1 followed by a gap down and a Doji on day 2. This is then followed by a gap up and a green candle on day 3. This clearly indicates a slow shift in control. The bears are in control on day 1, there is a sense of uncertainity on day 2, and finally an entry by the bulls. I would go long after seeing a gap up on day 3. The Evening star is the bearish version of this.<br>
 ![Star]({{site.baseurl}}/media/images-2022-02-03-trading/star.png "The morning and evening star from www.techinicalanalysisofstocks.com")
 
@@ -60,13 +60,13 @@ A simple moving average is the average of the last x days closing prices. An exp
 
 # Indicators
 Indicators are what I use to confirm if I should carry forward with a trade. It is an extra layer that prevents me from getting into possibly bad trades.
-- **Relative Strength Index**<br>
+## Relative Strength Index
 The RSI is used to identify overbought and oversold price regions of a stock where trends potentially reverse. It is usually calculated for a given time period with 14 days as the norm. It is measured in a scale of 0-100 where a value above 80 means overbought and a value below 20 means oversold. These are not fixed values, it can be meddled with according to your risk appetite. 
 
-- **Moving Average Convergence And Divergence**<br>
+## Moving Average Convergence And Divergence
 The MACD uses a 12 day and 26 day EMA along with a 9 day EMA as a signal line. When the MACD line goes above the signal line, a bullish trend is expected and vice versa. I have found that the MACD reacts  little slower to trends so it is pretty safe to trade, making sure a trend is forming.
 
-- **Bollinger Bands**<br>
+## Bollinger Bands
 Once again, an indicator that shows overbought and oversold prices regions. It involves a 20 day SMA, an upper line corresponding to +2 standard deviation, and a lower line for -2 standard deviation. If the current price is outside the upper or lower line, there is  high chance of trend reversal.
 
 # Dow Theory

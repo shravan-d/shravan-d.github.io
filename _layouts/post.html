@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article class="post">
+    <nav class="section-nav">
+      <a href="{{ site.baseurl }}/">Homepage</a>
+      {% include toc.html html=content %}
+    </nav>
+    <div>
+      <h1>{{ page.title }}</h1>
+      <div class="entry">
+        {{ content }}
+        <progress min="0" max="100" value="0"></progress> 
+      </div>    
+      <div class="date">
+        Written on {{ page.date | date: "%B %e, %Y" }}
+      </div>
+    </div>
+</article>
+<div class="wrapper-footer-post">
+  <div class="container">
+    <footer class="footer">
+      {% include svg-icons.html %}
+    </footer>
+  </div>
+</div>
+<script>
+ const progressbar = document.querySelector('progress')
+  const article = document.querySelector('.entry')
+  let isScrolling = false
+  document.addEventListener('scroll', (e) => isScrolling = true)
+  render()
+  function render() {
+    requestAnimationFrame(render)
+    if (!isScrolling) return
+    progressbar.value = window.scrollY / (article.offsetHeight - window.innerHeight) * 100
+    isScrolling = false
+  }
+</script>

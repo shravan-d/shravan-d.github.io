@@ -3,7 +3,7 @@ layout: post
 title: Ideas from; Deep Work by Cal Newport.
 ---
 
-What I feel are the important takeaways from Cal Newport's book about the rules for focussed success in a distracted world.
+The important takeaways from Cal Newport's book about the rules for focussed success in a distracted world.
 
 > "Waiting for inspiration to strike is a terrible, terrible plan. In fact, perhaps the best piece of advice I can offer to anyone trying to do creative work is to ignore inspiration" - Mason Currey
 
@@ -57,6 +57,7 @@ The first thought of resistance I felt towards deep work was that I had to give 
 Often, in the digital age, distractions occur through the forms of social media. For me, I feel a sense of belonging when I am part of groups and discussion in these applications, and when I'm not I worry if they'll miss me. I use these applications so that I stay in touch with my social circle, and to maybe find new circles or expand my network at best. I've always thought it's a small benefit and it's better than nothing, so why not? However to abandon such a tool is not to miss out on potential small benefits as I fathomed, but instead to get more out of the activities you know could yield large benefits. When picking which of these tools to use, weigh their positives against the negatives. To do so might require you leaving these tools for a period of time, but it is better than using them for the small potential benefits they offer. I was off Instagram, Reddit and Discord for two weeks and nobody expect my close friends noticed, close friends who I am in touch with regardless of my social connectivity.
 
 - *Routines, and Planning*
+
 Arnold Bennet was an author in 19th century England. In one occasion, he wrote about the working class man who doesn't particularly enjoy his 9-5 job (Your's truly). He sneers about how this man thinks of his job as his day, and not the 16 hours that surround it. These other hours are in itself a day within the day where you're free to do what you want to with money from your other day, but I've never thought of it as such. But to do so, you must hone your mind's ability to resist distraction. The distracted mind only seeks temporary entertainment, a release of dopamine without having to think. But what about filling this day within the day with activities that are meaningful, rather than just entertaining.  But to do so, it's crucial to plan ahead exactly what you want to do and when. You don't have to stop watching entertaining youtube videos, but these activities often have a habit of leaking over time. To avoid this leakage, plan your day ahead of time; give yourself time to be entertained but restrict these activites to that time. Mental faculties are capable of continuous hard work. All they need is change and rest in the form of sleep.
 
 The first step towards deep work is to avoid distractions. Small obligations seem harmless in isolation, but the can aggregate to serious damage. As long as I work with frequent distarctions, I might never achieve what I want. Treat shallow with suspicion because it's damage is underestimated and its's importance vastly overestimated. Your time and attention are valuable; choose wisely what you spend it on.

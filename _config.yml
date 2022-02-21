@@ -1,7 +1,9 @@
 name: Shravan Dinakaran
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  I blog to learn certain principles from areas exhaustively; then try to digest that knowledge into a form that is accessible to people who don't have time for such an extensive study.
+  I learn principles from areas exhaustively; then try to digest that knowledge into a form that is easily accessible 
+  to me later. In a way this is also me working with my door open.
+# for people who don't have time for such an extensive study
 baseurl: "" # the subpath of your site, e.g. /blog
 url: 
 github_username:  
