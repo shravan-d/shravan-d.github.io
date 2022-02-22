@@ -16,14 +16,14 @@ layout: default
       </div>
     {% endfor %}
   </div>
-
+  <!-- <div id="landing-hello">HELLO</div> -->
   <div id="posts-1">
     <div class="post-cards">
       {% assign cat = "Ideas From" %}
       {% for post in site.categories[cat] %}
         <div class="post-card">
-          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <div class="entry"> {{ post.excerpt }} </div>
+          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            <div><p> {{ post.excerpt }} </p></div>
         </div>
       {% endfor %}
     </div>
@@ -33,8 +33,8 @@ layout: default
       {% assign cat = "Computer Vision" %}
       {% for post in site.categories[cat] %}
         <div class="post-card">
-          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <div class="entry"> {{ post.excerpt }} </div>
+          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            <div><p> {{ post.excerpt }} </p></div>
         </div>
       {% endfor %}
     </div>
@@ -44,8 +44,8 @@ layout: default
       {% assign cat = "Lessons" %}
       {% for post in site.categories[cat] %}
         <div class="post-card">
-          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <div class="entry"> {{ post.excerpt }} </div>
+          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            <div><p> {{ post.excerpt }} </p></div>
         </div>
       {% endfor %}
     </div>
@@ -60,15 +60,22 @@ layout: default
 </div>
 
 <script>
+  function getStyle(element, name){
+    return element.currentStyle ? element.currentStyle[name] : window.getComputedStyle ? window.getComputedStyle(element, null).getPropertyValue(name) : null;
+  }
+
   function showPosts(category_index) {
     const divs = [document.getElementById("posts-1"), document.getElementById("posts-2"), document.getElementById("posts-3")]
-    if (divs[category_index].style.display === "none"){
+    // document.getElementById("landing-hello").style.display = "none";
+    if (getStyle(divs[category_index], "display") === "none"){
       divs[category_index].style.display = "block";
       for (let i =0;i<3;i++)
         if(i!=category_index)
           divs[i].style.display = "none"; 
     }
-    else
+    else{
       divs[category_index].style.display = "none";
+      // document.getElementById("landing-hello").style.display = "block";
+    }
   }
 </script>

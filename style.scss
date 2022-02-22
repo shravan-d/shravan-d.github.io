@@ -49,11 +49,12 @@ table {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-$blue: #4183C4;
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
+$lightblue: rgb(97, 179, 131);
+$blue: #BBBEFE;
+$black: #0B0C10;
+$darkerGray: #2b3541;
+$darkGray: rgb(73, 73, 73);
+$gray: #CFC6C7;
 $lightGray: #eee;
 $white: #fff;
 
@@ -80,12 +81,13 @@ html {
 }
 
 body {
-  background: rgb(250, 250, 250);
+  background: $darkerGray;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
+  // background: $darkerGray;
   margin: 0 auto;
   max-width: 100%;
   padding: 0 10px;
@@ -94,7 +96,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $blue;
   font-weight: bold;
 
   line-height: 1.7;
@@ -128,6 +130,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  color: $gray;
 }
 
 a {
@@ -142,6 +145,7 @@ a {
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
+  color: $gray;
 }
 
 ul {
@@ -213,7 +217,7 @@ img {
 
 .masthead {
   padding: 10px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $blue;
   @include mobile {
     text-align: center;
   }
@@ -247,7 +251,7 @@ img {
 .site-name {
   margin: -8px 0 0 0;
   padding-bottom: 5px;
-  color: $darkGray;
+  color: $blue;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -280,7 +284,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $gray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -294,6 +298,15 @@ nav {
 
 .landing{
   margin-top: 50px;
+  // background: $darkerGray;
+}
+
+#landing-hello{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 600%;
+  text-align: center;
+  color: $blue;
 }
 
 .categories:after {
@@ -324,17 +337,20 @@ nav {
 
 .category .face.face1{
   position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  background: rgb(247, 247, 247);
+  // box-shadow: 0 3px 10px rgba(102, 252, 241, 0.1);
+  background: $blue;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: translateY(0);
   transition: 0.5s;
+  h2{
+    color: $white;
+  }
 }
 
 .category:hover .face.face1{
-  background: #727272;
+  background: $lightblue;
   transform: translateY(-24px);
   opacity: 1;
 }
@@ -348,9 +364,12 @@ nav {
   padding: 20px;
   z-index: -1;
   box-sizing: border-box;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  // box-shadow: 0 10px 20px $lightblue(0.3);
   transform: translateY(-130px);
   transition: 0.5s;
+  p{
+    color: $black;
+  }
 }
 .category:hover .face.face2{
   transform: translateY(-27px);
@@ -375,19 +394,26 @@ nav {
   }
 }
 .post-card {
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
-  background: rgb(253, 253, 253);
+  box-shadow: 5px 10px 10px rgba(102, 252, 241, 0.1);
+  background: $darkerGray;  
   width: 300px;
   height: 250px;
   padding: .75rem;
   margin: 2rem 2rem;
   border: 0;
+  border-radius: 4px;
   flex-basis: max-content;
-  border: 1px solid $lightGray;
+  border: 1px solid $blue;
   @include mobile{
     width: 80%;
     align-items: center;
     height: 180px;
+  }
+  h3{
+    color: $lightblue;
+  }
+  p{
+    color: $gray;
   }
 }
 
@@ -430,11 +456,12 @@ nav {
 }
 
 .post > nav {
+  position: relative;
 	position: sticky;
 	top: 2rem;
 	align-self: start;
+
   @include mobile{
-    position: relative;
     margin-bottom: 80px;
   }
 }
@@ -442,12 +469,12 @@ nav {
 .section-nav {
   margin-top: 2rem;
   padding-left: 0;
-  border: 1px solid $lightGray;
+  border: 1px solid $blue;
 }
 
 .section-nav a:hover,
 .section-nav a:focus {
-  color: rgb(0, 0, 0);
+  color: $blue;
 }
 
 .section-nav a {
@@ -455,7 +482,7 @@ nav {
   text-decoration: none;
   display: block;
   padding: .125rem 0;
-  color: rgb(78, 78, 78);
+  color: $gray;
   transition: all 50ms ease-in-out; 
 }
 
@@ -471,21 +498,21 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-	background-color: #fdfdfd;
+	background-color: $black;
 }
 
 progress::-webkit-progress-value {
-	background-color: #3a3a3a;
+	background-color: $blue;
 	border-top-right-radius: 5px;
 }
 
 .wrapper-footer {
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid $blue;
+  background-color: $black;
   @include mobile{
     position: fixed;
   }
@@ -494,9 +521,8 @@ progress::-webkit-progress-value {
   position: relative;
   bottom: 0;
   width: 100%;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid $blue;
+  background-color: $darkerGray;
 }
 
 footer {
@@ -528,3 +554,10 @@ footer {
     font-family:'Bitstream Vera Sans Mono','Courier', monospace;
   }
 
+  input,
+  textarea,
+  button,
+  select,
+  a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
