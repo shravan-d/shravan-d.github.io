@@ -456,12 +456,12 @@ nav {
 }
 
 .post > nav {
-  position: relative;
 	position: sticky;
 	top: 2rem;
 	align-self: start;
 
   @include mobile{
+    position: relative;
     margin-bottom: 80px;
   }
 }
