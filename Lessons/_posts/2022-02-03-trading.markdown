@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Lessons; Trading.
+title: Trading; Technical Analysis.
 ---
 
-Technical Analysis of Stocks.
+A Beginner's guide to understanding Technical Analysis of Stocks.
 
 An important board member suddenly buys 100,000 shares of her own company. In technical analysis, it doesn't matter what caused her sudden faith; what matters is that the there is a sudden surge in demand for this stock which is now going to influence the upcoming trend. Technical Analysis does not analyse on why the stock price moves, but rather how it moves. It is therefore done with the help of stock prices and instruments used to visualize these prices; the main instrument being candlestick charts. A candlestick chart shows 4 values for each trading session. The trading session can be a day or even 5 minutes according to the trader's goals. I practice swing trading for which i use end of day charts that show values of Open, High, Low, and Close for a stock during a day. <br>
 ![A candlestick]({{site.baseurl}}/media/images-2022-02-03-trading/candlestick.jpg.jfif 

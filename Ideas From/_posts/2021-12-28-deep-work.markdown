@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ideas from; Deep Work by Cal Newport.
+title: Deep Work by Cal Newport.
 ---
 
 The important takeaways from Cal Newport's book about the rules for focussed success in a distracted world.
@@ -47,6 +47,7 @@ So this boils down to how you want to dedicate your time for deep work: monastic
 - *A metric to measure*
 
 It's always healthy to measure how well you're doing, but how do you manage to calculate. You could set lags and leads for yout tasks. A lag would be feedback on your task, looking back at how well you've done once it's complete. However, a lag wouldn't be an everyday motivator since you can't witness it until you finish the task. A lead, on the other hand, can be an indicator that helps measure everyday progress. A lead could be, as mentioned previously, counting the time you spend on deep work everyday.
+> I track my expense to control precisely what I spend my money on. Its time I do the same with my attention.
 
 - *Scheduled blocks of connectivity*
 
@@ -61,5 +62,3 @@ Often, in the digital age, distractions occur through the forms of social media.
 Arnold Bennet was an author in 19th century England. In one occasion, he wrote about the working class man who doesn't particularly enjoy his 9-5 job (Your's truly). He sneers about how this man thinks of his job as his day, and not the 16 hours that surround it. These other hours are in itself a day within the day where you're free to do what you want to with money from your other day, but I've never thought of it as such. But to do so, you must hone your mind's ability to resist distraction. The distracted mind only seeks temporary entertainment, a release of dopamine without having to think. But what about filling this day within the day with activities that are meaningful, rather than just entertaining.  But to do so, it's crucial to plan ahead exactly what you want to do and when. You don't have to stop watching entertaining youtube videos, but these activities often have a habit of leaking over time. To avoid this leakage, plan your day ahead of time; give yourself time to be entertained but restrict these activites to that time. Mental faculties are capable of continuous hard work. All they need is change and rest in the form of sleep.
 
 The first step towards deep work is to avoid distractions. Small obligations seem harmless in isolation, but the can aggregate to serious damage. As long as I work with frequent distarctions, I might never achieve what I want. Treat shallow with suspicion because it's damage is underestimated and its's importance vastly overestimated. Your time and attention are valuable; choose wisely what you spend it on.
-
-> I track my expense to control precisely what I spend my money on. Its time I do the same with my attention.
