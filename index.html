@@ -16,7 +16,9 @@ layout: default
       </div>
     {% endfor %}
   </div>
-  <!-- <div id="landing-hello">HELLO</div> -->
+  <div id="landing-hello">
+    <button><a href="{{ site.baseurl }}/pages/cv.html">Show CV</a></button>
+  </div>
   <div id="posts-1">
     <div class="post-cards">
       {% assign cat = "Ideas From" %}
@@ -63,10 +65,8 @@ layout: default
   function getStyle(element, name){
     return element.currentStyle ? element.currentStyle[name] : window.getComputedStyle ? window.getComputedStyle(element, null).getPropertyValue(name) : null;
   }
-
   function showPosts(category_index) {
     const divs = [document.getElementById("posts-1"), document.getElementById("posts-2"), document.getElementById("posts-3")]
-    // document.getElementById("landing-hello").style.display = "none";
     if (getStyle(divs[category_index], "display") === "none"){
       window.scrollTo(0,document.body.scrollHeight);
       divs[category_index].style.display = "block";
@@ -74,9 +74,8 @@ layout: default
         if(i!=category_index)
           divs[i].style.display = "none"; 
     }
-    else{
+    else
       divs[category_index].style.display = "none";
-      // document.getElementById("landing-hello").style.display = "block";
-    }
   }
 </script>
+<!-- TODO blog posts open transition, current, trading dow theory, SIFT images -->

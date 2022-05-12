@@ -11,10 +11,20 @@ So in a lot of applications that involve images, we have a need to detect releva
 One such technique to detect features and create descriptors is the SIFT.
 
 # Scale Invariant Feature Transform
-The aim of SIFT is to extract features from an image and ensure that the scale of images does not affect feature matching. So for every image, keypoints are derived from different scales of the image so as to account for all scales. 
+The aim of SIFT is to extract features from an image and ensure that the scale of images does not affect feature matching. So for every image, keypoints are derived from different scales of the image so as to account for all scales. Let's consider the following picture for our analysis. Throughout this article I have used images obtained from http://weitz.de/sift/index.html, where yellow points corespond to low-contrast features that are to be discarded, and red points are our features discovered at each step.
+
+![Original Image]({{site.baseurl}}/media/images-2022-01-03-features/1.jpg
+"Figure 1. Original Image.")<br> 
 
 ## 1. Extrema Detection in Scale & Space
-Difference of gaussian is a blob detection method where the image is convoluted with different Gaussian kernels i.e. different levels of blurring. The sigma value of the Gaussian filter is increased in each step which results in blobs of different sizes to ge t detected. These images are compared so as to maximise the areas of zero crossing. The comparison is done by finding the local extrema in space and scale i.e. with 8 surrounding pixels and 9 pixels in the adjacent scales. These extrema pixels are considered potential keypoints. 
+Difference of gaussian is a blob detection method where the image is convoluted with different Gaussian kernels i.e. different levels of blurring. The sigma value of the Gaussian filter is increased in each step which results in blobs of different sizes to get detected. These images are compared so as to maximise the areas of zero crossing. The comparison is done by finding the local extrema in space and scale i.e. with 8 surrounding pixels and 9 pixels in the adjacent scales. These extrema pixels are considered potential keypoints. 
+
+![Features after step]({{site.baseurl}}/media/images-2022-01-03-features/2.png
+"Figure 1. Difference of Gaussian.")<br> 
+These are the images formed after the difference of gaussian step.
+
+![Keypoints after step 1]({{site.baseurl}}/media/images-2022-01-03-features/3.png
+"Figure 1. Keypoints after step 1.")<br> 
 
 ## 2. Keypoint Localization
 In this step, we remove some of the keypoints found in step one.
@@ -22,8 +32,14 @@ In this step, we remove some of the keypoints found in step one.
 * We remove some keypoints at the newly found extremas that are of low contrast. If the intensity at the keypoint extrema obtained in the previous step is lesser than the contrast threshold, we eliminate it.
 * DoG has a high response for edges ande hence there is aneed to eliminate some of these. The edge keypoints are identified by a concept similar to Harris corner detection where gradients across a 3x3 kernel using Hessian matrix is calculated to check for edges/corners.
 
+![Keypoints after step 2]({{site.baseurl}}/media/images-2022-01-03-features/4.png
+"Figure 1. Keypoints after step 2.")<br> 
+
 ## 3. Orientation Assignment
 The goal here is to assign an orientation to each keypoint based on the gradients at each point. This is done to further distinguish and thereby match keypoints. Once orientations are assigned, the keypoints then become invariant to image rotation, meaning no matter how the image is rotated, the keypoints can be distinguished based on their orientations. For each scale, the same-scale Gaussian image is selected and two values are calculated for each keypoint (x, y). The gradient magnitude and orientation. They are found by the formulating the pixel differences in the x and y direction. An orientation histogram is formed from the gradient orientations of sample points with 36 bins covering the 360 degree range. Peaks in this histogram correspond to dominant directions of local gradients.The highest peak is detected, and then any other local peak that is within 80% of the highest peak is used to also create a keypoint with that orientation.
+
+![Keypoints after step 3]({{site.baseurl}}/media/images-2022-01-03-features/5.png
+"Figure 1. Keypoints after step 3.")<br> 
 
 ## 4. Generating Descriptors
 A keypoint descriptor is created by first computing the gradient magnitude and orientation at each image sample point in a region around the keypoint location. These samples are then accumulated into orientation histograms summarizing the contents over 4x4 subregions with the length of each arrow corresponding to the sum of the gradient magnitudes near that direction within the region. Trilinear interpolation is used to distribute the value of each gradient sample into adjacent histogram bins to avoid abrupt changes. These descriptors are made to be invariant to brightness and contrast changes. Since they are charecterized by gradients, which are essentially computed from pixel differences, a contrast change (multiplication of intensity by a constant) will mean equal change in all gradients and a brightness change (addition of intensity with a constant) will mean no change in gradients. Hence they are invariant to illumination.
