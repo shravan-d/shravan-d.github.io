@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trading; Technical Analysis.
+title: Technical Analysis of Stocks.
 ---
 
 A Beginner's guide to understanding Technical Analysis of Stocks.

@@ -4,7 +4,7 @@ layout: default
 
 <div class="landing">
   <div class="categories">
-    {% assign cat_details = "Ideas and opinions I believe I should remember from the books I've read and some movies I've watched.,Concepts from computer vision that I have recently studied in detail serving as personal notes.,Lessons I have learnt about certain topic that I keep visiting back to." | split: "," %}
+    {% assign cat_details = "Ideas I believe I should remember from the books I've read.,Concepts from computer vision that I have recently studied in detail serving as personal notes.,Lessons I have learnt about finance that I keep coming back to." | split: "," %}
     {% for category in site.categories %}
       <div class="category" onclick="showPosts('{{ forloop.index0 }}')">
         <div class="face face1"> 
@@ -16,9 +16,9 @@ layout: default
       </div>
     {% endfor %}
   </div>
-  <div id="landing-hello">
+  <!-- <div id="landing-hello">
     <button><a href="{{ site.baseurl }}/pages/cv.html">Show CV</a></button>
-  </div>
+  </div> -->
   <div id="posts-1">
     <div class="post-cards">
       {% assign cat = "Ideas From" %}
@@ -43,7 +43,7 @@ layout: default
   </div>
   <div id="posts-3"> 
     <div class="post-cards">
-      {% assign cat = "Lessons" %}
+      {% assign cat = "Finance" %}
       {% for post in site.categories[cat] %}
         <div class="post-card">
           <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
