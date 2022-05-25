@@ -52,7 +52,7 @@ table {
 $lightblue: rgb(97, 179, 131);
 $blue: #BBBEFE;
 $black: #0B0C10;
-$darkerGray: #2b3541;
+$darkerGray: #1d1e24;
 $darkGray: rgb(73, 73, 73);
 $gray: #CFC6C7;
 $lightGray: #eee;
@@ -92,6 +92,13 @@ body {
   max-width: 100%;
   padding: 0 10px;
   width: 100%;
+}
+
+.container-page {
+  margin: -450px auto;
+  max-width: 80%;
+  padding: 0 10px;
+  width: 80%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -301,15 +308,6 @@ nav {
   // background-image: url({{site.baseurl}}/media/landing-bg.png);
 }
 
-#landing-hello{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 600;
-  font-size: 600%;
-  text-align: center;
-  color: $blue;
-  background: $darkerGray;
-}
-
 .categories:after {
   content: "";
   display: table;
@@ -484,17 +482,12 @@ nav {
   color: $blue;
 }
 
-.section-nav li.active > a {
-  color: #333;
-  font-weight: 500;
-}
-
 .section-nav a {
   text-align: left;
   text-decoration: none;
   display: block;
   padding: .125rem 0;
-  color: $gray;
+  color: white;
   transition: all 50ms ease-in-out; 
 }
 

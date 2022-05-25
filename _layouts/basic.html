@@ -6,14 +6,12 @@
     {% include meta.html %}
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-  </head>
+  
+    {% include nav.html %}
+</head>
 
   <body>
-    
-    {% include nav.html %}
-
-    <div id="main" style="text-align: justify;" role="main" class="container">
+    <div id="main" style="text-align: justify;" role="main" class="container-page">
       {{ content }}
     </div>
   </body>
